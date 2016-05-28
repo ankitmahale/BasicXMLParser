@@ -11,7 +11,7 @@ e-mail(s): amahale2@binghamton.edu
 
 
 PURPOSE:
-To implement Observer Pattern
+To implement Java's Reflecction API and dynamic proxy and apply stategy pattern to design a Parser(XML,JSON).
 
 PERCENT COMPLETE:
 I believe I have completed 100% of this project
@@ -85,21 +85,9 @@ SAMPLE OUTPUT:
      [java] myFloat : 0.7238298
      [java] myShort : 28435
      [java] myChar : g
-To clean:
-
-ant -buildfile src/build.xml clean
-
-To COMPILE:
-ant -buildfile src/build.xml all
-
-To RUN by specifying arguments from command line:
-
-ant -buildfile src/build.xml run -Darg0=serdeser or deser -Darg1=5 -Darg2=output.txt
 
 
-To create tarball for submission
-ant -buildfile src/build.xml tarzip
-
+How to Run: This is a netbeans project file and can be run on netbeans IDE.
 
 Datastructure:
 Complexity: Vector are good for retrieving elements from a specific position in the container or for adding and removing elements from the end of the container. All of these operations can be performed in constant time -- O(1). However, adding and removing elements from any other position proves more expensive -- linear to be exact: O(n-i), where n is the number of elements and i is the index of the element added or removed. These operations are more expensive because you have to shift all elements at index i and higher over by one element.
